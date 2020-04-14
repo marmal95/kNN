@@ -2,5 +2,5 @@
 
 std::ostream& operator<<(std::ostream& os, const Accuracy& accuracy)
 {
-	return os << accuracy.correct << " / " << accuracy.all;
+    return os << accuracy.correct << " / " << accuracy.all;
 }

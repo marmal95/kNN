@@ -4,6 +4,6 @@
 
 namespace Cuda
 {
-	void knn(const FlatDataView&, FlatDataView&);
-	void minMax(FlatDataView&);
+    void knn(const FlatDataView&, FlatDataView&);
+    void minMax(FlatDataView&);
 }

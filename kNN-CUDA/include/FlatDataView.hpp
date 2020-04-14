@@ -8,20 +8,20 @@
 class FlatDataView
 {
 public:
-	FlatDataView() = default;
-	FlatDataView(std::vector<float>&&, const std::size_t);
-	FlatDataView(std::vector<DataRow>&&);
+    FlatDataView() = default;
+    FlatDataView(std::vector<float>&&, const std::size_t);
+    FlatDataView(std::vector<DataRow>&&);
 
-	std::size_t getNumberOfRows() const;
-	std::size_t getRowSize() const;
-	FlatRowView operator[](const std::size_t);
-	const FlatRowView operator[](const std::size_t) const;
-	const std::vector<float>& operator*() const;
-	std::vector<float>& operator*();
+    std::size_t getNumberOfRows() const;
+    std::size_t getRowSize() const;
+    FlatRowView operator[](const std::size_t);
+    const FlatRowView operator[](const std::size_t) const;
+    const std::vector<float>& operator*() const;
+    std::vector<float>& operator*();
 
 private:
-	std::vector<float> flatData{};
-	std::size_t rowSize{};
+    std::vector<float> flatData{};
+    std::size_t rowSize{};
 };
 
 std::ostream& operator<<(std::ostream&, const FlatRowView&);

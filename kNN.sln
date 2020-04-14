@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1022
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kNN", "kNN\kNN.vcxproj", "{337CD59E-DD6D-4F0F-9D39-364139ACBD90}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kNN-CUDA", "kNN-CUDA\kNN-CUDA.vcxproj", "{B582270D-E008-42FC-BC48-A2E226750C5D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kNN-OpenMPI", "kNN-OpenMPI\kNN-OpenMPI.vcxproj", "{D4B5FA1B-C064-4ED9-8661-BBF78C6856B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AA5E6C7-EDDC-45CB-8330-D4E4D838E355}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

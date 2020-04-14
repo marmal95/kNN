@@ -44,11 +44,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="source\CudaAlgorithm.cu">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="source\DataReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -67,5 +62,8 @@
     <ClCompile Include="source\MinMaxNormalizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="source\CudaAlgorithm.cu" />
   </ItemGroup>
 </Project>

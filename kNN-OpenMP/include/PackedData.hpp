@@ -5,10 +5,10 @@
 class PackedData
 {
 public:
-	PackedData(std::vector<double> data)
-		: data{ std::move(data) }
-	{}
+    PackedData(std::vector<double> data)
+        : data{ std::move(data) }
+    {}
 
 private:
-	std::vector<double> data;
+    std::vector<double> data;
 };

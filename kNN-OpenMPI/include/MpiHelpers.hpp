@@ -4,10 +4,10 @@
 
 namespace MPI
 {
-	constexpr auto MASTER_PROCESS = 0;
+    constexpr auto MASTER_PROCESS = 0;
 
-	int getRank();
-	int getWorldSize();
-	int isMasterProcess();
-	void synchronizeProcesses();
+    int getRank();
+    int getWorldSize();
+    int isMasterProcess();
+    void synchronizeProcesses();
 }

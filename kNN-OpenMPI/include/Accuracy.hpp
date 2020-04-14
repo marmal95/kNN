@@ -5,8 +5,8 @@
 
 struct Accuracy
 {
-	std::size_t correct;
-	std::size_t all;
+    std::size_t correct;
+    std::size_t all;
 };
 
 std::ostream& operator<<(std::ostream& os, const Accuracy&);
