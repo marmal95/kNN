@@ -64,6 +64,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="source\CudaAlgorithm.cu" />
+    <CudaCompile Include="source\CudaAlgorithm.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
   </ItemGroup>
 </Project>
